@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gentian Solartech Inc</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Gentian Solartech Inc</h1>
+<p>AI | Software Development | SaaS | Digital Marketing</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="payment.html">Payments</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+<h2>Welcome to Gentian Solartech Inc</h2>
+
+<p>
+Gentian Solartech Inc provides advanced digital technology solutions including
+Artificial Intelligence development, SaaS platforms, enterprise software and
+global digital marketing services.
+</p>
+
+<h3>Our Services</h3>
+
+<ul>
+<li>AI Development</li>
+<li>Custom Software Development</li>
+<li>SaaS Platforms</li>
+<li>Digital Marketing</li>
+<li>Cloud Applications</li>
+</ul>
+
+</section>
+
+<footer>
+
+<p>Email: gentianinfo1@gmail.com</p>
+<p>Phone: +91-7540008408</p>
+
+<p>© 2026 Gentian Solartech Inc</p>
+
+</footer>
+
+</body>
+</html>
