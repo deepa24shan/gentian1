@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gentian Solartech Inc</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#f4f7ff;
+scroll-behavior:smooth;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(-45deg,#0044ff,#00c6ff,#5f2cff,#00eaff);
+background-size:400% 400%;
+animation:gradient 10s ease infinite;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+header h1{
+font-size:50px;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+}
+
+/* NAV */
+
+nav{
+background:#001a66;
+text-align:center;
+padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#00eaff;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+}
+
+.hero img{
+width:420px;
+border-radius:15px;
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h2{
+font-size:36px;
+margin-bottom:20px;
+color:#001a66;
+}
+
+.btn{
+padding:12px 25px;
+background:#0044ff;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#0044ff;
+margin-bottom:10px;
+}
+
+/* PRICING */
+
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+text-align:center;
+margin-top:40px;
+}
+
+.plan{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.plan h3{
+color:#0044ff;
+}
+
+.plan button{
+margin-top:15px;
+padding:10px 20px;
+background:#0044ff;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+/* PAYMENT */
+
+.payment{
+text-align:center;
+}
+
+.crypto{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.wallet{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.wallet img{
+width:120px;
+margin-top:10px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact input,
+.contact textarea{
+width:320px;
+padding:12px;
+margin:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.contact button{
+padding:12px 25px;
+background:#0044ff;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+/* FOOTER */
+
+footer{
+background:#001a66;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Gentian Solartech Inc</h1>
+
+<p>Artificial Intelligence • Software Development • SaaS Platforms • Digital Marketing</p>
+
+</header>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#payment">Payments</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="home">
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h2>Global AI & Software Innovation</h2>
+
+<p>
+Gentian Solartech Inc develops enterprise software, AI automation
+systems, SaaS platforms and digital marketing solutions for
+companies worldwide.
+</p>
+
+<button class="btn">Start Your Project</button>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995">
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 style="text-align:center;">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Artificial Intelligence</h3>
+<p>Machine learning automation systems.</p>
+</div>
+
+<div class="card">
+<h3>Software Development</h3>
+<p>Custom enterprise applications.</p>
+</div>
+
+<div class="card">
+<h3>SaaS Platforms</h3>
+<p>Cloud based software platforms.</p>
+</div>
+
+<div class="card">
+<h3>Mobile Apps</h3>
+<p>Android and iOS application development.</p>
+</div>
+
+<div class="card">
+<h3>Digital Marketing</h3>
+<p>SEO and global marketing strategies.</p>
+</div>
+
+<div class="card">
+<h3>Cloud Infrastructure</h3>
+<p>Secure scalable cloud systems.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="pricing">
+
+<h2 style="text-align:center;">Service Packages</h2>
+
+<div class="pricing">
+
+<div class="plan">
+<h3>Startup</h3>
+<p>$500</p>
+<p>Website + Marketing</p>
+<button>Order</button>
+</div>
+
+<div class="plan">
+<h3>Business</h3>
+<p>$1500</p>
+<p>Software + SaaS</p>
+<button>Order</button>
+</div>
+
+<div class="plan">
+<h3>Enterprise</h3>
+<p>$5000+</p>
+<p>AI Platform Development</p>
+<button>Order</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="payment" class="payment">
+
+<h2>Crypto Payment Options</h2>
+
+<p>We accept secure blockchain payments.</p>
+
+<div class="crypto">
+
+<div class="wallet">
+
+<h3>BTC</h3>
+
+<p>Wallet Address:</p>
+
+<p>YOUR_BTC_ADDRESS</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YOUR_BTC_ADDRESS">
+
+</div>
+
+<div class="wallet">
+
+<h3>ETH</h3>
+
+<p>Wallet Address:</p>
+
+<p>YOUR_ETH_ADDRESS</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YOUR_ETH_ADDRESS">
+
+</div>
+
+<div class="wallet">
+
+<h3>USDT</h3>
+
+<p>Wallet Address:</p>
+
+<p>YOUR_USDT_ADDRESS</p>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=YOUR_USDT_ADDRESS">
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email: gentianinfo1@gmail.com</p>
+
+<p>Phone / WhatsApp: +91-7540008408</p>
+
+<form>
+
+<input type="text" placeholder="Your Name"><br>
+
+<input type="email" placeholder="Your Email"><br>
+
+<textarea placeholder="Message"></textarea><br>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Gentian Solartech Inc – Global Technology Company</p>
+
+</footer>
+
+</body>
+</html>
